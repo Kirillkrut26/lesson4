@@ -1,0 +1,90 @@
+@import url('fonts/main_font.css');
+
+        * {
+            /* Сбрасывание стандартных стилей и добавление шрифтов */
+            margin: 0;
+            font-family: 'StratosSkyeng', sans-serif;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .content {
+            /* Эти два свойства нужны чтобы фон подстраивался на весь экран */
+            background-size: cover;
+            min-height: 100vh;
+            /* Пиши свой код ниже */
+            height: 100vh;
+            background-image: url(./images/background.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+    
+        }
+
+
+        /* Класс для расположения элементов в 1 ряд */
+        .in-one-line {
+            display: flex;
+            /* Отступ между элементами */
+            gap: 32px;
+        }
+        
+        /* Класс для центрирования страницы */
+        .center {
+            padding-left: calc(50% - 500px);
+            padding-right: calc(50% - 500px);
+        }
+        
+        h3 {
+            font-size: 24px;
+            text-align: left 
+        }
+
+        p {
+            font-size: 22px;
+        }
+
+        img {
+            width: 35%;
+            border-radius: 15px;
+        }
+
+        a {
+            display: block;
+            background-color: #894AFF;
+            color: white;
+            padding: 11px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 38px;
+            position: absolute;
+            position: fixed;
+            margin-top: 24px;
+        }
+
+        .next {
+            right:40px;
+            
+        }
+        .last { 
+            left: 40px; 
+        }
+
+
+        .memes {
+            margin-top: 16px;
+            margin-bottom: 16px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        .inf {
+            padding-top: 100px;
+        }
+
+        .Line {
+            display: flex;
+            gap: 30px;
+        }
